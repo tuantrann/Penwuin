@@ -7,7 +7,7 @@ contract PenwuinToken is ERC20 {
     // wei
     uint256 initialSupply = 1_000_000_000_000_000_000_000_000;
 
-    constructor(uint256 initialSupply) ERC20("PenwuinToken", "PENW") {
+    constructor() ERC20("PenwuinToken", "PENW") {
         _mint(msg.sender, initialSupply);
     }
 }
