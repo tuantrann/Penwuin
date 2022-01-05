@@ -1,51 +1,46 @@
 {
-  "name": "front_end",
+  "name": "defi-tutorial",
   "version": "0.1.0",
-  "private": true,
+  "description": "DeFi Token Staking App",
+  "author": "Patrick Collins and Matt Durkin",
   "dependencies": {
-    "@craco/craco": "^6.4.3",
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.4.0",
-    "@types/node": "^16.11.17",
-    "@types/react": "^17.0.38",
-    "@types/react-dom": "^17.0.11",
-    "@usedapp/core": "^0.7.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-router-dom": "^6.2.1",
-    "react-scripts": "5.0.0",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
-    "typescript": "^4.5.4",
-    "web-vitals": "^2.1.2"
+    "@chainlink/contracts": "^0.0.9",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "@openzeppelin/contracts": "^3.2.0",
+    "@truffle/hdwallet-provider": "^1.0.44",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.7",
+    "@usedapp/core": "^0.5.4",
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1",
+    "chai-bignumber": "3.0.0",
+    "fs": "^0.0.1-security",
+    "react": "^16.13.1",
+    "react-dom": "16.13.1",
+    "react-scripts": "^4.0.3",
+    "truffle": "5.1.39",
+    "typescript": "^4.3.2",
+    "yaml": "^1.10.2"
   },
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "autoprefixer": "^9",
-    "postcss": "^7"
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "resolutions": {
+    "@ethersproject/abi": "5.2.0",
+    "@ethersproject/contracts": "5.2.0",
+    "ethers": "5.2.0"
   }
 }
