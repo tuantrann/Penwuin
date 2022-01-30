@@ -17,16 +17,8 @@ body {
 body {
   display: grid;
   min-height: 100vh;
-  background: linear-gradient(
-    135deg,
-    hsl(227, 61%, 13%),
-    hsl(227, 61%, 26%),
-    hsl(227, 61%, 39%)
-  );
-}
-
-body::backdrop {
-  background-color: hsl(227, 61%, 26%);
+   background: rgb(8,106,137);
+background: linear-gradient(90deg, rgba(8,106,137,1) 12%, rgba(0,212,255,0.6544817756204044) 100%); 
 }
 
 code {

@@ -47,7 +47,7 @@ export const TokenFarmContract = ({
 
   return (
     <Box>
-      <h1 className={classes.header}>The TokenFarm Contract</h1>
+      <h1 className={classes.header}>Staking Pool</h1>
       <Box className={classes.box}>
         <div>
           {isConnected ? (
